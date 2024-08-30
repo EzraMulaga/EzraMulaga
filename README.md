@@ -11,8 +11,8 @@ My journey in computer science has led me to develop a passion for for technolog
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-|Data analysis| Cohort of songs|
-|Machine Learning| Cohort of songs| 
+|Data analysis| <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>|
+|Machine Learning|  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>| 
 
 ## Tools
 
@@ -47,5 +47,5 @@ My journey in computer science has led me to develop a passion for for technolog
 </div>
 
 ## Projects
-- Cohort of songs
+-  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>
 
