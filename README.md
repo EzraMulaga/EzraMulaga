@@ -20,6 +20,8 @@ My journey in computer science has led me to develop a passion for for technolog
 |-----------------------------------------------|----------------------------|
 |Data analysis| <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>|
 |Machine Learning|  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>| 
+|Security Auditing| <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>|
+|Cybersecurity Analysis| <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>|
 
 ## Tools
 
@@ -55,4 +57,5 @@ My journey in computer science has led me to develop a passion for for technolog
 
 ## Projects
 -  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>
+-  <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>
 
