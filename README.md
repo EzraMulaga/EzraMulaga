@@ -11,7 +11,8 @@ My journey in computer science has led me to develop a passion for for technolog
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-
+|Data analysis| Cohort of songs|
+|Machine Learning| Cohort of songs| 
 
 ## Tools
 
@@ -30,6 +31,11 @@ My journey in computer science has led me to develop a passion for for technolog
   <img src="https://img.shields.io/badge/-XAMPP-FB7A24?style=for-the-badge&logo=XAMPP&logoColor=white" />
 </div>
 
+### Data Science
+<div>
+   <img src="https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=for-the-badge&logo=Jupyter&logoColor=white" />
+</div>
+
 ## Certifications
 
 <div>
@@ -41,3 +47,5 @@ My journey in computer science has led me to develop a passion for for technolog
 </div>
 
 ## Projects
+- Cohort of songs
+
