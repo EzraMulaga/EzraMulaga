@@ -7,6 +7,13 @@ I am a current computer science student with a profound interest in technology a
 
 My journey in computer science has led me to develop a passion for for technology and looking forward to get into the industry and develope my skills and knowledge.
 
+## Experience
+- Intern (2021 - present) - National Parlianemt
+  
+## Education
+- Bachelor's Degree in Computer Science (2022 - Present), Papua New Guinea University of Technology
+
+  
 ## Skills
 
 | Skill                                         | Associated Project         |
