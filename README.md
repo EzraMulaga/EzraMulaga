@@ -46,6 +46,7 @@ My journey in computer science has led me to develop a passion for for technolog
 </div>
 
 ## Certifications
+<a> Click on certificate to access credentials</a>
 
 <div>
 <a href="https://certificates.simplicdn.net/share/thumb_4797416.png">
