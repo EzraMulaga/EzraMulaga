@@ -50,6 +50,8 @@ My journey in computer science has led me to develop a passion for for technolog
 <div>
 <img src="https://img.shields.io/badge/-Simplilearn%20Machine%20Learning%20Advanced%20Certification%20Training-0096FF?style=for-the-badge&logo=Simplilearn&logoColor=white" />
 <img src="https://img.shields.io/badge/-Google%20Fundamentals%20of%20Digital%20Marketing-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
+<img src="https://img.shields.io/badge/-Google%20Cybersecurity-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
+
 
 
 
