@@ -69,4 +69,5 @@ My journey in computer science has led me to develop a passion for for technolog
 ## Projects
 -  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>
 -  <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>
+-  <a href="https://github.com/EzraMulaga/AI-Programming-in-Python-Project-1">Using a pre-trained dog breed classifier</a>
 
