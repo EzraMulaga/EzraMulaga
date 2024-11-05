@@ -19,7 +19,7 @@ My journey in computer science has led me to develop a passion for for technolog
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 |Data analysis| <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>|
-|Machine Learning|  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>| 
+|Machine Learning|  | 
 |Security Auditing| <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>|
 |Cybersecurity Analysis| <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>|
 
