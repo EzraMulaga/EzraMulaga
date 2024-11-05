@@ -23,19 +23,20 @@ My journey in computer science has led me to develop a passion for for technolog
   </tr>
   <tr>
     <td>Data Analysis</td>
-    <td><a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a></td>
+    <td rowspan="2"><a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a></td>
   </tr>
   <tr>
     <td>Machine Learning</td>
-    <td rowspan="2"><a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a></td>
   </tr>
   <tr>
     <td>Security Auditing</td>
+    <td rowspan="2"><a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a></td>
   </tr>
   <tr>
     <td>Cybersecurity Analysis</td>
   </tr>
 </table>
+
 
 
 ## Tools
@@ -74,6 +75,11 @@ My journey in computer science has led me to develop a passion for for technolog
 <a href="https://www.coursera.org/account/accomplishments/specialization/AI4IQ8STTV7V">
     <img src="https://img.shields.io/badge/-Google%20Cybersecurity-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
 </a>
+
+<a href="https://www.udacity.com/certificate/e/a9377120-2dce-11ef-9287-b36a45645989">
+    <img src="https://img.shields.io/badge/-Udacity%20AI%20Programming%20in%20Python-02b3e4?style=for-the-badge&logo=Udacity&logoColor=white" />
+</a>
+
 
 
 
