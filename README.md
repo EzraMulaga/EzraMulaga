@@ -1,5 +1,7 @@
 # Ezra Mulaga
 
+[![committers.top badge](https://user-badge.committers.top/papua_new_guinea/EzraMulaga.svg)](https://user-badge.committers.top/papua_new_guinea/EzraMulga)
+
 Computer Science Student  
 Systems Design | Secure Architecture | Machine Learning  
 
@@ -50,27 +52,6 @@ Object-oriented implementation of the classic Snake game demonstrating core prog
 **Systems:** RBAC, Database Design, Secure API Integration, Audit Logging  
 **Tools:** Git, Supabase, Jupyter Notebook, VS Code  
 
----
-
-## GitHub Stats
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=EzraMulaga&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark"
-    height="165"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=EzraMulaga&layout=compact&hide_border=true&theme=github_dark"
-    height="165"
-  />
-</p>
-
-<p align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=EzraMulaga&theme=github-dark&hide_border=true"
-    height="165"
-  />
-</p>
 
 ---
 
