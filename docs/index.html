@@ -1,188 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ezra Mulaga | Computer Science Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ezra Mulaga — Computer Science student focused on systems engineering, secure architecture, and distributed systems." />
+  <title>Ezra Mulaga | Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #0f172a;
-            color: #e2e8f0;
-            line-height: 1.6;
-        }
-
-        header {
-            padding: 60px 20px;
-            text-align: center;
-            background: #020617;
-            border-bottom: 1px solid #1e293b;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-
-        h2 {
-            color: #38bdf8;
-            margin-top: 60px;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .links a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #38bdf8;
-            font-weight: bold;
-        }
-
-        .project {
-            background: #1e293b;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            transition: transform 0.2s ease;
-        }
-
-        .project:hover {
-            transform: translateY(-4px);
-        }
-
-        .project a {
-            color: #7dd3fc;
-            text-decoration: none;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            color: #94a3b8;
-        }
-    </style>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Optional: swap to your preferred font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
-    <h1>Ezra Mulaga</h1>
-    <p>Computer Science Student | Systems Design | Secure Distributed Architecture</p>
-    
-    <div class="links">
-        <a href="https://github.com/EzraMulaga" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/ezra-mulaga" target="_blank">LinkedIn</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">Ezra Mulaga</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
     </div>
-</header>
+  </header>
 
-<div class="container">
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Computer Science Student</p>
+          <h1>Systems-minded builder focused on secure, scalable software.</h1>
+          <p class="lead">
+            I design and implement systems with strong foundations in databases, reliability,
+            and access control — with applied machine learning where it adds value.
+          </p>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            Computer Science student focused on secure distributed systems,
-            role-based access control, AI-assisted engineering workflows,
-            and scalable software architecture.
-        </p>
-        <p>
-            I design practical systems grounded in traditional CS principles:
-            database normalization, system reliability, secure API design,
-            and auditability.
-        </p>
-    </section>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Get in Touch</a>
+          </div>
 
-    <section>
-        <h2>Featured Projects</h2>
-
-        <div class="project">
-            <h3>Digital Clinic Book - Distributed Hospital Information System</h3>
-            <p>
-                Role-based medical records system with emergency access logic,
-                authentication flows, audit logging, and secure Supabase backend integration.
-            </p>
-            <p><strong>Technologies:</strong> JavaScript, Supabase, SQL, RBAC, RLS</p>
-            <a href="https://github.com/EzraMulaga/Digital-Clinic-Book" target="_blank">View Repository →</a>
-            <a href="https://ezramulaga.github.io/Digital-Clinic-Book/" target="_blank">Live Demonstration</a>
+          <ul class="hero-links" aria-label="Quick links">
+            <li><a href="https://github.com/EzraMulaga" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/ezra-mulaga/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <!-- Optional: add your CV -->
+            <!-- <li><a href="./EzraMulaga-CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a></li> -->
+          </ul>
         </div>
-        <div class="project">
-    <h3>Create Your Own Image Classifier</h3>
-    <p>
-        Developed as part of the Udacity <strong>AI Programming with Python Nanodegree</strong>,
-        delivered in collaboration with the <strong>AWS Machine Learning Program</strong>.
-        This project implements a deep learning image classification pipeline
-        from dataset preprocessing to model training and evaluation.
-    </p>
-    <p>
-        Built and trained a convolutional neural network using transfer learning,
-        implemented performance validation workflows, and optimized accuracy
-        under constrained compute conditions.
-    </p>
-    <p><strong>Technologies:</strong> Python, PyTorch (or TensorFlow – adjust accordingly),
-        Jupyter Notebook, Transfer Learning, Data Augmentation</p>
-    <p><strong>Concepts Demonstrated:</strong> Neural networks, backpropagation,
-        dataset normalization, model generalization, inference pipeline design</p>
-    <a href="https://github.com/EzraMulaga/Create-Your-Own-Image-Classifier" target="_blank">
-        View Repository →
-    </a>
-</div>
-<div class="project">
-    <h3>Dog Breed Classifier (Pre-trained Model)</h3>
-    <p>
-        Developed as part of the <strong>Udacity AI Programming with Python Nanodegree</strong>,
-        delivered in collaboration with the <strong>AWS Machine Learning Program</strong>.
-        This project applies transfer learning using a pre-trained convolutional neural
-        network to classify dog breeds from real-world image data.
-    </p>
-    <p>
-        Implemented image preprocessing, model loading, inference logic, and performance
-        evaluation workflows while analyzing accuracy trade-offs between different
-        pretrained architectures.
-    </p>
-    <p><strong>Technologies:</strong> Python, PyTorch or TensorFlow (adjust to match repo),
-        Transfer Learning, Data Preprocessing, Model Evaluation</p>
-    <p><strong>Concepts Demonstrated:</strong> Transfer learning, feature extraction,
-        inference pipeline design, classification metrics, model generalization</p>
-    <a href="https://github.com/EzraMulaga/Using-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds" target="_blank">
-        View Repository →
-    </a>
-</div>
 
-    <div class="project">
-    <h3>Snake Game (Java)</h3>
-    <p>
-        A classic Snake game implemented in Java demonstrating object-oriented programming, event handling,
-        and real-time user interaction. A clean way to show algorithmic thinking and coding fundamentals.
-    </p>
-    <p><strong>Technologies:</strong> Java, Swing/AWT</p>
-    <a href="https://github.com/EzraMulaga/SnakeGame" target="_blank">View Repository →</a>
-</div>
+        <aside class="hero-card" aria-label="Highlights">
+          <div class="card">
+            <h2 class="card-title">Highlights</h2>
+            <ul class="bullets">
+              <li><strong>Secure data access:</strong> RBAC + Row-Level Security patterns</li>
+              <li><strong>System design:</strong> auditability, edge-case thinking, scalability</li>
+              <li><strong>ML practice:</strong> transfer learning, preprocessing, evaluation</li>
+            </ul>
 
-
-
+            <div class="chips" aria-label="Focus areas">
+              <span class="chip">Distributed Systems</span>
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">Security</span>
+              <span class="chip">Java</span>
+            </div>
+          </div>
+        </aside>
+      </div>
     </section>
 
-    <section>
-        <h2>Technical Skills</h2>
-        <p>
-            <strong>Languages:</strong> Java, JavaScript, SQL  
-            <br>
-            <strong>Concepts:</strong> Database Design, Distributed Systems, API Architecture,
-            Role-Based Access Control, Audit Logging  
-            <br>
-            <strong>Tools:</strong> Git, Supabase, VS Code, Local LLM Toolchains
-        </p>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <p class="muted">Proof-first summaries: what it is, what I built, and why it matters.</p>
+        </div>
+
+        <div class="grid cards">
+          <!-- Project 1 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Distributed Hospital Information System <span class="tag">In Progress</span></h3>
+              <p class="muted">
+                Role-based digital medical records architecture designed for secure, scalable healthcare data access.
+              </p>
+            </div>
+
+            <ul class="bullets">
+              <li><strong>Security:</strong> PostgreSQL RLS for query-layer data isolation (prevents cross-role leakage).</li>
+              <li><strong>Access model:</strong> RBAC policies + emergency access token flow with auditing.</li>
+              <li><strong>Traceability:</strong> audit logging for record access events and sensitive operations.</li>
+            </ul>
+
+            <div class="meta">
+              <span class="pill">Supabase</span>
+              <span class="pill">PostgreSQL</span>
+              <span class="pill">RLS</span>
+              <span class="pill">RBAC</span>
+            </div>
+
+            <div class="actions">
+              <a class="btn small primary" href="https://github.com/EzraMulaga/Digital-Clinic-Book" target="_blank" rel="noreferrer">Repo</a>
+              <!-- Optional: add demo link -->
+              <!-- <a class="btn small" href="https://your-demo-link" target="_blank" rel="noreferrer">Live Demo</a> -->
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Create Your Own Image Classifier</h3>
+              <p class="muted">
+                CNN classifier using transfer learning, training workflows, and evaluation on validation data.
+              </p>
+            </div>
+
+            <ul class="bullets">
+              <li><strong>Pipeline:</strong> preprocessing, augmentation, training, validation, checkpointing.</li>
+              <li><strong>Modeling:</strong> transfer learning with a pretrained backbone.</li>
+              <li><strong>Engineering:</strong> reproducible workflow with structured training outputs.</li>
+            </ul>
+
+            <div class="meta">
+              <span class="pill">Python</span>
+              <span class="pill">PyTorch/TensorFlow</span>
+              <span class="pill">Transfer Learning</span>
+            </div>
+
+            <div class="actions">
+              <a class="btn small primary" href="https://github.com/EzraMulaga/Create-Your-Own-Image-Classifier" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Dog Breed Classifier (Pre-trained Model)</h3>
+              <p class="muted">
+                Image classification pipeline using a pre-trained CNN for real-world inference tasks.
+              </p>
+            </div>
+
+            <ul class="bullets">
+              <li><strong>Inference:</strong> end-to-end prediction pipeline and output interpretation.</li>
+              <li><strong>Adaptation:</strong> transfer learning concepts applied to a pretrained CNN.</li>
+              <li><strong>CLI workflow:</strong> reproducible runs and consistent evaluation.</li>
+            </ul>
+
+            <div class="meta">
+              <span class="pill">Python</span>
+              <span class="pill">CNN</span>
+              <span class="pill">Inference</span>
+            </div>
+
+            <div class="actions">
+              <a class="btn small primary" href="https://github.com/EzraMulaga/Using-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <!-- Project 4 (Foundations) -->
+          <article class="card project">
+            <div class="project-top">
+              <h3>Snake Game (Java)</h3>
+              <p class="muted">
+                Object-oriented implementation demonstrating event-driven logic and state management.
+              </p>
+            </div>
+
+            <ul class="bullets">
+              <li><strong>OOP:</strong> modular design, encapsulation, clear state transitions.</li>
+              <li><strong>Logic:</strong> game loop + collision rules + input handling.</li>
+              <li><strong>Foundations:</strong> clean code structure and readability.</li>
+            </ul>
+
+            <div class="meta">
+              <span class="pill">Java</span>
+              <span class="pill">OOP</span>
+              <span class="pill">Event-driven</span>
+            </div>
+
+            <div class="actions">
+              <a class="btn small primary" href="https://github.com/EzraMulaga/SnakeGame" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-</div>
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Technical Skills</h2>
+          <p class="muted">Organized for quick scanning.</p>
+        </div>
 
-<footer>
-    © 2026 Ezra Mulaga | Building with clarity, structure, and intent.
-</footer>
+        <div class="grid skill-grid">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul class="compact">
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
 
+          <div class="card">
+            <h3>Systems & Security</h3>
+            <ul class="compact">
+              <li>RBAC / authorization design</li>
+              <li>Row-Level Security (Postgres)</li>
+              <li>Database design & normalization</li>
+              <li>Audit logging</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Machine Learning</h3>
+            <ul class="compact">
+              <li>Transfer learning</li>
+              <li>Neural networks (CNN)</li>
+              <li>Training & evaluation workflows</li>
+              <li>Inference pipelines</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools</h3>
+            <ul class="compact">
+              <li>Git</li>
+              <li>Supabase</li>
+              <li>Jupyter Notebook</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+
+        <div class="grid about-grid">
+          <div class="card">
+            <h3>What I care about</h3>
+            <p>
+              I like projects where correctness and security matter: access control, data isolation,
+              reliable data models, and system behavior under real constraints.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Current Focus</h3>
+            <ul class="bullets">
+              <li>Designing secure healthcare data workflows</li>
+              <li>Strengthening concurrency/transaction modeling knowledge</li>
+              <li>Improving system documentation and architecture communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section cta">
+      <div class="container">
+        <div class="cta-inner">
+          <div>
+            <h2>Let’s connect</h2>
+            <p class="muted">
+              Best way to reach me: email or LinkedIn. I’m open to internships, junior roles, and collaborations.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <!-- Replace with your email -->
+            <a class="btn primary" href="mailto:mulagaj@gmail.com">Email Me</a>
+            <a class="btn" href="https://www.linkedin.com/in/ezra-mulaga/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn" href="https://github.com/EzraMulaga" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted">© <span id="year"></span> Ezra Mulaga. Built with HTML + CSS.</p>
+      <p class="muted small">Tip: Add screenshots/GIFs to projects for stronger proof.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
