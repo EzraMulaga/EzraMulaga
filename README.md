@@ -23,7 +23,9 @@ Role-based digital medical records architecture designed for secure and scalable
 - Supabase backend with Row-Level Security  
 - Practitioner & patient dashboards  
 - Emergency access token flow  
-- Audit logging system  
+- Audit logging system
+
+🔗 https://github.com/EzraMulaga/Digital-Clinic-Book
 
 ---
 
