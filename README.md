@@ -1,96 +1,121 @@
-# Hello, I'm Ezra Mulaga
-<a href="https://www.linkedin.com/in/ezra-mulaga/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-[![committers.top badge](https://user-badge.committers.top/papua_new_guinea/EzraMulaga.svg)](https://user-badge.committers.top/papua_new_guinea/EzraMulaga)
+# Ezra Mulaga
 
-I am a current computer science student with a profound interest in technology and a dedication to solving complex problems.
+[![committers.top badge](https://user-badge.committers.top/papua_new_guinea/EzraMulaga.svg)](https://user-badge.committers.top/papua_new_guinea/EzraMulga)
 
-## Objective
+Computer Science Student  
+**Systems Engineering | Secure Architecture | Distributed Systems | Machine Learning**
 
-My journey in computer science has led me to develop a passion for for technology and looking forward to get into the industry and develope my skills and knowledge.
+---
 
-## Experience
-- Intern (2021 - present) - National Parlianemt
-  
-## Education
-- Bachelor's Degree in Computer Science (2022 - Present), Papua New Guinea University of Technology
+## About
 
-  
-## Skills
+Computer Science student focused on designing secure, scalable information systems grounded in strong software engineering and database principles.
 
-<table>
-  <tr>
-    <th>Skill</th>
-    <th>Associated Project</th>
-  </tr>
-  <tr>
-    <td>Data Analysis</td>
-    <td rowspan="2"><a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a></td>
-  </tr>
-  <tr>
-    <td>Machine Learning</td>
-  </tr>
-  <tr>
-    <td>Security Auditing</td>
-    <td rowspan="2"><a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a></td>
-  </tr>
-  <tr>
-    <td>Cybersecurity Analysis</td>
-  </tr>
-</table>
+My interests sit at the intersection of:
 
+- Distributed system architecture  
+- Role-based access control and data isolation  
+- Database design and transaction safety  
+- Applied machine learning systems  
 
+I aim to build systems that remain reliable, secure, and maintainable under real-world constraints.
 
-## Tools
+---
 
-### Software Development
-<div>
-   <img src="https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white" />
-  <img src="https://img.shields.io/badge/-SQL%20Server%20Management%20Studio-CC2927?style=for-the-badge&logo=Microsoft%20SQL%20Server&logoColor=white" />
-  
+## Core Project
 
+### Distributed Hospital Information System (In Progress)
 
-</div>
+Designing a role-based digital medical records system with secure multi-tenant data access and audit traceability.
 
-### Web Development
-<div>
-  <img src="https://img.shields.io/badge/-Notepad++-90E59A?style=for-the-badge&logo=Notepad%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/-XAMPP-FB7A24?style=for-the-badge&logo=XAMPP&logoColor=white" />
-</div>
+**Architecture Highlights:**
+- PostgreSQL with Supabase backend  
+- Row-Level Security (RLS) for query-layer data isolation  
+- Role-Based Access Control (RBAC) enforcement  
+- Emergency access token mechanism with auditing  
+- Structured audit logging for medical record access events  
 
-### Data Science
-<div>
-   <img src="https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=for-the-badge&logo=Jupyter&logoColor=white" />
-</div>
+**Design Focus:**
+- Prevent cross-role data exposure  
+- Enforce least-privilege access  
+- Maintain traceability of sensitive record interactions  
+- Separate authentication logic from data authorization policies  
 
-## Certifications
-<a> Click on certificate to access credentials</a>
+🔗 Repository:  
+https://github.com/EzraMulaga/Digital-Clinic-Book
 
-<div>
-<a href="https://certificates.simplicdn.net/share/thumb_4797416.png">
-    <img src="https://img.shields.io/badge/-Simplilearn%20Machine%20Learning%20Advanced%20Certification%20Training-0096FF?style=for-the-badge&logo=Simplilearn&logoColor=white" />
-</a>
+---
 
-<a href="https://skillshop.exceedlms.com/student/award/sdHJz6YDSWarvBJkUa7BTJEW">
-    <img src="https://img.shields.io/badge/-Google%20Fundamentals%20of%20Digital%20Marketing-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
-</a>
-<a href="https://www.coursera.org/account/accomplishments/specialization/AI4IQ8STTV7V">
-    <img src="https://img.shields.io/badge/-Google%20Cybersecurity-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
-</a>
+## Machine Learning Projects  
+*(Udacity × AWS Machine Learning Program)*
 
-<a href="https://www.udacity.com/certificate/e/a9377120-2dce-11ef-9287-b36a45645989">
-    <img src="https://img.shields.io/badge/-Udacity%20AI%20Programming%20in%20Python-02b3e4?style=for-the-badge&logo=Udacity&logoColor=white" />
-</a>
+### Image Classifier (Custom CNN + Transfer Learning)
 
+Built and trained a convolutional neural network using transfer learning techniques.
 
+- Data preprocessing & augmentation  
+- Model training, validation, and checkpointing  
+- Inference pipeline construction  
+- Performance evaluation on validation dataset  
 
+🔗 https://github.com/EzraMulaga/Create-Your-Own-Image-Classifier  
 
+---
 
+### Dog Breed Classifier (Pre-trained Model)
 
-</div>
+Implemented an image classification pipeline using a pre-trained CNN for real-world inference tasks.
 
-## Projects
--  <a href="https://github.com/EzraMulaga/Cohort-of-Songs">Cohort Of Songs</a>
--  <a href="https://github.com/EzraMulaga/Conduction-Security-Audit">Conduction Security Audit</a>
--  <a href="https://github.com/EzraMulaga/Using-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds">Using a pre-trained dog breed classifier</a>
-- <a href="https://github.com/EzraMulaga/Create-Your-Own-Image-Classifier">Create Your Own Image Classifier</a>
+- Feature extraction from pretrained architecture  
+- Transfer learning adaptation  
+- Classification output interpretation  
+- CLI-based inference workflow  
 
+🔗 https://github.com/EzraMulaga/Using-a-Pre-trained-Image-Classifier-to-Identify-Dog-Breeds  
+
+---
+
+## Foundations
+
+### Snake Game (Java)
+
+Object-oriented implementation demonstrating:
+
+- Event-driven programming  
+- State management  
+- Encapsulation and modular design  
+- Game loop logic  
+
+🔗 https://github.com/EzraMulaga/SnakeGame  
+
+---
+
+## Technical Stack
+
+**Languages**  
+Java • Python • JavaScript • SQL  
+
+**Systems & Architecture**  
+RBAC • Row-Level Security • Database Design • Audit Logging • Secure API Integration  
+
+**Machine Learning**  
+PyTorch • TensorFlow • Transfer Learning • Neural Networks  
+
+**Tools & Environment**  
+Git • Supabase • Jupyter Notebook • VS Code  
+
+---
+
+## Current Focus
+
+- Designing secure distributed healthcare systems  
+- Strengthening database concurrency and transaction modeling knowledge  
+- Exploring secure AI-assisted system orchestration  
+- Advancing system-level design thinking beyond CRUD applications  
+
+---
+
+## Connect
+
+LinkedIn:  
+https://www.linkedin.com/in/ezra-mulaga/
